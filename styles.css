@@ -105,30 +105,29 @@ button{
         
       }
       
-      /* Scrollbar ka container */
+     
 ::-webkit-scrollbar {
-  width: 12px;
-  height: 2em; /* Scrollbar ki width */
+  width: 6px;
+  height: 1em; 
 }
 
-/* Scrollbar ka thumb (jo upar neeche hota hai) */
+
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(243, 245, 255);
-   /* Thumb ka color green */
+  background-color: rgb(212, 212, 212);
+  
 }
-/* Scrollbar track (jo background mein hota hai) */
+
 ::-webkit-scrollbar-track {
-  background-color: #1e0f0f; /* Track ka color */
-  border-radius: 12px; /* Track ke corners round */
+  background-color: #1e0f0f; 
+  border-radius: 12px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(5, 6, 14); /* Thumb ka color blue on hover */
-  /* Aap yahan par yellow ya red bhi use kar sakte hain */
+  background-color: rgb(192, 194, 211); 
+  
 }
 
 
 ::-webkit-scrollbar-track:hover {
-  background-color: rgb(254, 254, 255); /* Thumb ka color blue on hover */
-  /* Aap yahan par yellow ya red bhi use kar sakte hain */
+  background-color: rgb(175, 175, 208); 
 }
