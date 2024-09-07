@@ -2,6 +2,11 @@ body {
     font-family: Arial, sans-serif;
     background-color: #003049;
     cursor: pointer;
+    display: flex;
+    height: 105vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
     body {
       animation: backgroundAnimation 10s infinite;
     }
@@ -29,11 +34,12 @@ body {
 .resume {
     width: 80%;
     margin: 0 auto;
-    background-color: #272932;
+    background-color: #e9edc9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #f4f4f4;
+    /* color: #f4f4f4; */
+    color:#0d1b2a
 }
 
 .hidden {
@@ -67,7 +73,7 @@ button{
         text-align: center;
         font-weight:bold;
         font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: #e5e5e5; 
+        color: #283618; 
         text-decoration: underline ;
         
     }
@@ -83,14 +89,46 @@ button{
       }
 
      h3{
-        color :#e0e1dd
+        color :#606c38;
+        background-color: #ccd5ae;
+        display: flex;
+        justify-content: center;
       }
       .skill{
-        background-color: #0d1b2a;
-        color: #e0e1dd;
+        background-color: #ccd5ae;
+        color: #1b263b;
         border-radius: 2rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        font-weight: 600;
+        opacity: initial;
         
       }
       
+      /* Scrollbar ka container */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 2em; /* Scrollbar ki width */
+}
+
+/* Scrollbar ka thumb (jo upar neeche hota hai) */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(243, 245, 255);
+   /* Thumb ka color green */
+}
+/* Scrollbar track (jo background mein hota hai) */
+::-webkit-scrollbar-track {
+  background-color: #1e0f0f; /* Track ka color */
+  border-radius: 12px; /* Track ke corners round */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(5, 6, 14); /* Thumb ka color blue on hover */
+  /* Aap yahan par yellow ya red bhi use kar sakte hain */
+}
+
+
+::-webkit-scrollbar-track:hover {
+  background-color: rgb(254, 254, 255); /* Thumb ka color blue on hover */
+  /* Aap yahan par yellow ya red bhi use kar sakte hain */
+}
