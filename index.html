@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+ <!-- Static resume builder -->
+    <style>  
+        body {
+          margin: 0;
+          height: 100vh;
+          background: linear-gradient(270deg, #264653, #403d39, #335c67, #22333b);
+          background-size: 800% 800%;
+          animation: backgroundAnimation 10s ease infinite;
+        }
+    
+        @keyframes backgroundAnimation {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+      </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume">
+        <h1 class=" head">My Resume</h1>
+        <p>Name: Sabahat Shakeel</p>
+        <p>Email: sbt@gmail.com</p>
+        <p>Phone: +92-111-222-33</p>
+
+        <button class="button" id="toggleSkills">View skills</button>
+
+        <div id="skillsSection" class="hidden">
+            <h3 >Expertise</h3>
+            <ul class="skill">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>TypeScript</li>
+                <li>Next.js</li>
+                <li>Video editor</li>
+                <li>Image editor</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Work Experience</h2>
+            <p>Contributed to innovative projects at GIAIC, leveraging industry expertise to drive growth and deliver impactful solutions.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
